@@ -1,19 +1,12 @@
 # ubakahub-frontend
 This is where all frontend UI code goes.
 
-# UbakaHub Frontend
-
-Welcome to the **UbakaHub Frontend**!  
-This project contains the landing page for UbakaHub and individual landing pages for all core modules like UbakaFix, UbakaStore, UbakaPlan, etc.
-
----
-
 ## 🚀 Getting Started
 
 ### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/ubakahub/frontend.git
+git clone https://github.com/ubakahub/ubakahub-frontend.git
 cd frontend
 
 2. Install Dependencies

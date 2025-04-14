@@ -28,7 +28,7 @@ npm start
 │   ├── ubakaFix/
 │   ├── ubakaStore/
 │   └── ...
-├── App.jsx           # Main app layout and routes
+├── main.tsx           # Main app layout and routes
 └── index.js          # Entry point
 
 

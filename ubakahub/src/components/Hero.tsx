@@ -1,11 +1,18 @@
+import network from "../assets/icons/network.svg";
+import approve from "../assets/icons/approve.svg";
+import trade from "../assets/icons/trade.svg";
+import build from "../assets/icons/building.svg";
+import './Hero.css'
+
+
 const Hero = () => {
   return (
     <header className="hero">
-      <div className="icons">
-        <span>🏙️</span>
-        <span>✅</span>
-        <span>👥</span>
-        <span>📞</span>
+      <div className="hero__icons">
+        <img src={build} alt="building" className="icon"/>
+        <img src={approve} alt="approve" className="icon"/>
+        <img src={network} alt="network" className="icon"/>
+        <img src={trade} alt="trade" className="icon"/>
       </div>
       <h2>Build. Validate. Connect. Trade.</h2>
       <p>

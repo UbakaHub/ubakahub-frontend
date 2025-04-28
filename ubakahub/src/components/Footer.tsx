@@ -1,13 +1,16 @@
 const Footer = () => {
   return (
     <footer className="footer">
-      <ul className="nav-links">
-        <li><a href="#">UbakaHub</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Features</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#" className="early-access">Early access</a></li>
-      </ul>
+      <p className="copyrights">&copy; UbakaHub. All rights reserved.</p>
+      <div className="footer-related-docs">
+      <p>Privacy Policy</p>
+      <p>Terms of service</p>
+      </div>
+      {/* Social Media Links */}
+      <div className="social-links">
+        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
+        <a href="https://in.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
     </footer>
   );
 };

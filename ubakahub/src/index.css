@@ -1,16 +1,22 @@
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --color-primary: #4A40B9;
+  --the-blue-i-like: #101CC6;
+  --gradient-1: circular-gradient(circle at center, black,  var(--the-blue-i-like), #black);
+  --gradient-2: radial-gradient(circle at center, var(--the-blue-i-like), black, var(--the-blue-i-like));
+  --gradient-3: radial-gradient(ellipse 2rem at left, var(--the-blue-i-like), black);
+  --gradient-4: linear-gradient(180deg, var(--the-blue-i-like), black, black);
 }
 
 a {

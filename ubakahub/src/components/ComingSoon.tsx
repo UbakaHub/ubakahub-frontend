@@ -21,9 +21,6 @@ const ComingSoon = () => {
 
   return (
     <div className="coming-soon-container">
-      <div className="logo">
-        <img src="path-to-your-logo.png" alt="UbakaHub Logo" />
-      </div>
 
       <h1>UbakaHub is coming!</h1>
       <p>Be the first to know when we launch. Enter your email below!</p>
@@ -37,13 +34,18 @@ const ComingSoon = () => {
             value={email}
             onChange={handleEmailChange}
             required
+            className='email-input'
           />
-          <button type="submit">Notify Me</button>
-        </form>
+          <button type="submit" className='email-submit'>
+            <i className='bx bx-right-arrow-alt'></i>
+          </button>
+        </form> 
       ) : (
-        <p>Thanks for signing up! We'll let you know when we launch. 🚀</p>
+        <>
+        <h1>Thank you</h1>
+        <p>Your email has been successfully added.</p></>
       )}
-
+      <p className='footer-disclaimer'>By submitting your email, you agree to receive updates, new and promotions. Check out our <a href="#">privacy policy</a>.</p>
       
     </div>
   );

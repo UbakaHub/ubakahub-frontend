@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import ProductPage from './components/ProductPage';
+import ComingSoon from './components/ComingSoon';
 import Footer from './components/Footer';
 
 function App() {
@@ -11,16 +12,18 @@ function App() {
     <div className="landing-container">
       <Navbar />
       <Hero />
-      
     </div>
     <section className="project-container">
       {/* something will go here at some point */}
     </section>
     <section className="product-container">
-    <ProductPage />
+      <ProductPage />
     </section>
     <section className="footer-container">
-    <Footer />
+      <div className='container-coming-soon'>
+        <ComingSoon />
+      </div>
+      <Footer />
     </section>
     </>
   );
